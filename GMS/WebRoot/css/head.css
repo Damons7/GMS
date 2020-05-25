@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+#div1 {
+background-color: #EFEFEF;
+height: 35px;
+line-height: 35px;
+font-size: 13px;
+text-align: center;
+}
+.a{
+	margin-right: 250px;
+}
+.a1{
+	margin-left: 10px;
+}
+.a2{
+	margin-left: 10px;
+	color:#2A00E1;
+}
+#div2{
+
+	margin-top:10px;
+	text-align: center;
+}
+#div3{
+		margin-top:10px;
+	background-color: #CC3333;
+	line-height:35px;
+	height: 35px;
+}
+table{
+	margin:auto;
+	text-align: center;
+}
+table tr td .head_a{
+	color:#FFFFFF;
+	margin-left:20px;
+	font-size:14px;
+	text-decoration: none;
+
+}
+
+table tr td .head_a:hover{
+	color:#F6DE32;
+	
+
+}

@@ -1,0 +1,10 @@
+#Mon Jun 03 23:51:41 CST 2019
+eclipse.preferences.version=1
+encoding//WebRoot/js=UTF-8
+encoding//WebRoot/jsp/index.jsp=UTF-8
+encoding//src/cn/jizhu/action/LoginServlet.java=UTF-8
+encoding//src/cn/jizhu/action/RegisterServlet.java=UTF-8
+encoding//src/cn/jizhu/service/EC_userService.java=UTF-8
+encoding//src/cn/jizhu/test=UTF-8
+encoding//src/cn/jizhu/util/JDBCUtil.java=UTF-8
+encoding/src=UTF-8

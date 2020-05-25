@@ -1,0 +1,90 @@
+@charset "UTF-8";
+   #login_div1{
+/*	background-image:url("/big_job/img/beijing.jpg");*/
+	height: 388px;
+	width: 960px;
+	margin: auto;
+	margin-top: 20px;
+	position: relative;
+	
+	
+}
+#login_div2{
+/*	background-color: #FFFFFF;*/
+	width:445px;
+	height:300px;
+	left:470px;
+	top:70px;
+	color: #9C9C9C;
+	font-size:12px;
+	position: absolute;
+	
+
+}
+.l_input1{
+	height: 25px;
+	width: 250px;
+}
+.l_input1:hover{
+	border: 1px solid #FDA546;
+
+}
+.l_input2{
+	height: 25px;
+	width: 125px;
+}
+.l_input2:hover{
+	border: 1px solid #FDA546;
+
+}
+.reg_img {
+
+	left: 140px;
+	top: 110px;
+}
+#checkCode {
+
+	top: 10px;
+	width: 100px;
+	left: 0px;
+	height: 27px;
+}
+#l_a1{
+	color:blue;
+	
+}
+#login_table{
+/*	margin: auto;*/
+	width:500px;
+
+	border-spacing: 5px 17px;
+}
+#l_td1{
+	text-align: right;
+}
+.l_td2{
+	text-align: left;
+}
+.l_td3{
+	color:black;
+}
+#l_sub{
+	width: 80px;
+	height:30px;
+	background-color: 	#00CED1;
+	color:#FFFFFF;
+	font-size: 14px;
+	border: 1px solid #EF7429;
+}
+
+
+
+#body{
+  background:url("/big_job/img/jiemian.jpg");
+	  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+	/*background-position-x:50%;*/
+}

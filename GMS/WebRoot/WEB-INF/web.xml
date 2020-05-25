@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>
+
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>select_informationServlet</servlet-name>
+    <servlet-class>cn.jizhu.action.select_informationServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>re_informationServlet</servlet-name>
+    <servlet-class>cn.jizhu.action.re_informationServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>re_informationServlet_test</servlet-name>
+    <servlet-class>cn.jizhu.action.re_informationServlet_test</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>select_informationServlet_test</servlet-name>
+    <servlet-class>cn.jizhu.action.select_informationServlet_test</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>sc_select_informationServlet</servlet-name>
+    <servlet-class>cn.jizhu.action.sc_select_informationServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>courses_informationServlet</servlet-name>
+    <servlet-class>cn.jizhu.action.courses_informationServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>courses_select</servlet-name>
+    <servlet-class>cn.jizhu.action.courses_select</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>delete_coursesServlet</servlet-name>
+    <servlet-class>cn.jizhu.action.delete_coursesServlet</servlet-class>
+  </servlet>
+
+
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>re_scServlet</servlet-name>
+    <servlet-class>cn.jizhu.action.re_scServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>teacher_scServlet</servlet-name>
+    <servlet-class>cn.jizhu.action.teacher_scServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>add_sc</servlet-name>
+    <servlet-class>cn.jizhu.action.add_sc</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>courses_teacherServlet</servlet-name>
+    <servlet-class>cn.jizhu.action.courses_teacherServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>administrator_re_information</servlet-name>
+    <servlet-class>cn.jizhu.action.administrator_re_information</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Open_coursesServlet</servlet-name>
+    <servlet-class>cn.jizhu.action.Open_coursesServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>administrator_coursesServlet</servlet-name>
+    <servlet-class>cn.jizhu.action.administrator_coursesServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>administrator_courses_deleteServlet</servlet-name>
+    <servlet-class>cn.jizhu.action.administrator_courses_deleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>administrator_noticeServlet</servlet-name>
+    <servlet-class>cn.jizhu.action.administrator_noticeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>student_noticeServlet</servlet-name>
+    <servlet-class>cn.jizhu.action.student_noticeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>administrator_update_sdept</servlet-name>
+    <servlet-class>cn.jizhu.action.administrator_update_sdept</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>administrator_select_sdept</servlet-name>
+    <servlet-class>cn.jizhu.action.administrator_select_sdept</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>re_password</servlet-name>
+    <servlet-class>cn.jizhu.action.re_password</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>exitServlet</servlet-name>
+    <servlet-class>cn.jizhu.action.exitServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Page_sc_Servlet</servlet-name>
+    <servlet-class>cn.jizhu.action.Page_sc_Servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>select_teacher_cno</servlet-name>
+    <servlet-class>cn.jizhu.action.select_teacher_cno</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>administartor_information</servlet-name>
+    <servlet-class>cn.jizhu.action.administartor_information</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>administartor_re_infor</servlet-name>
+    <servlet-class>cn.jizhu.action.administartor_re_infor</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>administartor_re_password</servlet-name>
+    <servlet-class>cn.jizhu.action.administartor_re_password</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>administartor_re1_informationServlet</servlet-name>
+    <servlet-class>cn.jizhu.action.administartor_re1_informationServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>select_sc_rankServlet</servlet-name>
+    <servlet-class>cn.jizhu.action.select_sc_rankServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>select_scrank_bystu_Servlet</servlet-name>
+    <servlet-class>cn.jizhu.action.select_scrank_bystu_Servlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>select_informationServlet</servlet-name>
+    <url-pattern>/select_informationServlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>re_informationServlet</servlet-name>
+    <url-pattern>/re_informationServlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>re_informationServlet_test</servlet-name>
+    <url-pattern>/re_informationServlet_test.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>select_informationServlet_test</servlet-name>
+    <url-pattern>/select_informationServlet_test.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>sc_select_informationServlet</servlet-name>
+    <url-pattern>/sc_select_informationServlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>courses_informationServlet</servlet-name>
+    <url-pattern>/courses_informationServlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>courses_select</servlet-name>
+    <url-pattern>/courses_select.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>delete_coursesServlet</servlet-name>
+    <url-pattern>/delete_coursesServlet.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>re_scServlet</servlet-name>
+    <url-pattern>/re_scServlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>teacher_scServlet</servlet-name>
+    <url-pattern>/teacher_scServlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>add_sc</servlet-name>
+    <url-pattern>/add_sc.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>courses_teacherServlet</servlet-name>
+    <url-pattern>/courses_teacherServlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>administrator_re_information</servlet-name>
+    <url-pattern>/administrator_re_information.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Open_coursesServlet</servlet-name>
+    <url-pattern>/Open_coursesServlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>administrator_coursesServlet</servlet-name>
+    <url-pattern>/administrator_coursesServlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>administrator_courses_deleteServlet</servlet-name>
+    <url-pattern>/administrator_courses_deleteServlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>administrator_noticeServlet</servlet-name>
+    <url-pattern>/administrator_noticeServlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>student_noticeServlet</servlet-name>
+    <url-pattern>/student_noticeServlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>administrator_update_sdept</servlet-name>
+    <url-pattern>/administrator_update_sdept.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>administrator_select_sdept</servlet-name>
+    <url-pattern>/administrator_select_sdept.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>re_password</servlet-name>
+    <url-pattern>/re_password.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>exitServlet</servlet-name>
+    <url-pattern>/exitServlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Page_sc_Servlet</servlet-name>
+    <url-pattern>/Page_sc_Servlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>select_teacher_cno</servlet-name>
+    <url-pattern>/select_teacher_cno.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>administartor_information</servlet-name>
+    <url-pattern>/administartor_information.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>administartor_re_infor</servlet-name>
+    <url-pattern>/administartor_re_inforServlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>administartor_re_password</servlet-name>
+    <url-pattern>/administartor_re_password.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>administartor_re1_informationServlet</servlet-name>
+    <url-pattern>/administartor_re1_informationServlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>select_sc_rankServlet</servlet-name>
+    <url-pattern>/select_sc_rankServlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>select_scrank_bystu_Servlet</servlet-name>
+    <url-pattern>/select_scrank_bystu_Servlet.do</url-pattern>
+  </servlet-mapping>
+  	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

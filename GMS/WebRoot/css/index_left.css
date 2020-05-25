@@ -1,0 +1,35 @@
+@CHARSET "UTF-8";
+
+.in_ul {
+	width: 200px;
+}
+
+.li {
+	list-style-type: none;
+	height: 28px;
+	line-height: 30px;
+	font-size: 13px;
+	padding-left: 15px;
+	border-bottom: 1px #F6A65B solid;
+	border-left: 1px #F6A65B solid;
+	border-right: 1px #F6A65B solid;
+}
+
+.li_h {
+	color: #663300;
+	list-style-type: none;
+	height: 35px;
+	line-height: 35px;
+	font-size: 18px;
+	font-weight: bold; padding-left : 15px;
+	background-color: #F6A65B;
+	padding-left: 15px;
+}
+
+.in_a {
+	color: #0000FF;
+	text-decoration: none;
+}
+.in_a:HOVER {
+	color:red;
+}
